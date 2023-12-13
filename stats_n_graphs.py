@@ -72,15 +72,3 @@ def categorize_shot_data(shot_csv):
     category_df = category_df.reset_index(drop=True)
     
     return category_df
-
-#print(categorize_shot_data())
-# img = mpimg.imread(r"D:\New folder\george\ML DL AI\AAA app\testplot.png")
-
-# # Create a Seaborn plot
-# sb.set(style='whitegrid')
-# sb.jointplot(x = 'X',y = 'Y',data = dataset, kind = 'hex')
-
-# # Add the image as an overlay
-# plt.imshow(img, extent=[0, 6, 0, 8], aspect='auto', alpha=0.5)
-
-# plt.show()
