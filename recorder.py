@@ -152,7 +152,6 @@ def assess_data(save=True, hm=False):
         eh.create_folders_in_path(shots_path)
 
         if save:
-            #print("shot arrays: ", create_shot_arrays(player[1]), create_shot_arrays(player[2]))
             X_COORD_SUCCESS, Y_COORD_SUCCESS = create_shot_arrays(player[1])
             X_COORD_FAIL, Y_COORD_FAIL = create_shot_arrays(player[2])
 
@@ -198,10 +197,6 @@ img  = cv2.imread('testplot.png', 1)
 
 if __name__=="__main__":
     main()
-
-#cv2.createButton("Undo",undo,None,cv2.QT_PUSH_BUTTON,1)
-
-#def undo(*args):
 
     pass
 
